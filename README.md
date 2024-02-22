@@ -19,6 +19,9 @@ The output displayed above shows a program that was running for 5 days, 1 hour,
 The stopwatch output can be disabled temoprarily using a fish function
 `disable_stopwatch` and enabled again using `enable_stopwatch`.
 
+You can also change the minimum execution time with the `set_stopwatch_min_time`
+by passing the desired time in milliseconds.
+
 ## Inspiration
 
 [fish-command-timer](https://github.com/jichu4n/fish-command-timer)
