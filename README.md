@@ -9,7 +9,7 @@ minimum (10s by default), it prints out the execution duration neatly formated.
 $ python program.py
 Some program output
 
-  5d1h36m23s41
+  5d 1h 36m 23s 41
 $
 ```
 

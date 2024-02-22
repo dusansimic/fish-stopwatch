@@ -21,16 +21,16 @@ function format_stopwatch_time
     set -l sw_stopwatch_str ""
 
     if [ $sw_n_days -gt 0 ]
-        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_days}"d"
+        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_days}"d "
     end
     if [ $sw_n_hours -gt 0 ]
-        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_hours}"h"
+        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_hours}"h "
     end
     if [ $sw_n_mins -gt 0 ]
-        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_mins}"m"
+        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_mins}"m "
     end
     if [ $sw_n_secs -gt 0 ]
-        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_secs}"s"
+        set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_secs}"s "
     end
     if [ $sw_n_millis -gt 0 ]
         set sw_stopwatch_str {$sw_stopwatch_str}{$sw_n_millis}
